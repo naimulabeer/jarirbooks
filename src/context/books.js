@@ -16,7 +16,7 @@ function Provider({ children }) {
       title: newTitle,
     });
 
-    console.log(response);
+    //console.log(response);
 
     const updatedBooks = books.map((book) => {
       if (book.id === id) {
